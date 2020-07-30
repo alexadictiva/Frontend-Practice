@@ -1,0 +1,14 @@
+.login__ppal {
+  animation: beat alternate 1.3s infinite;
+}
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
